@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.badge-collection {
+  margin: 5rem;
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.relative-container {
+  position: relative; 
+  padding: 0.3rem;
+}
+
+.badge {
+  background-color: rgb(31, 31, 192);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  /* padding: 0.12rem 0.35rem;    MISTAKE Confused between padding and height-width */
+  font-size: 0.7rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  text-align: center;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.top-left {
+  background-color: rgb(223, 51, 208);
+  color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  border: 0.1rem solid white;
+}
+
+.lrg {
+  height: 1rem;
+  width: 1rem;
+  border: none;
+}
+
+.btn-1 {
+  padding: 0.8rem 1.4rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(31, 31, 192);
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.btn-2 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: gray;
+  padding: 0.8rem 1.4rem;
+  border: 1px solid lightgray;
+  border-radius: 0.3rem;
+}
+
+
+.hide:hover ~ .hide_it {
+  display: none;
+}
+
+.avatar {
+  position: relative;
+}
+
+
+
+
+
+.small {
+  width: 2.5rem;
+}
+
+.medium {
+  width: 6rem;
+}
+
+.large {
+  width: 8rem;
+}
+
+.largest {
+  width: 10rem;
+}
+
+.relative-wrap {
+  position: relative;
+}
+
+.circle {
+  background-color: rgb(31, 31, 192);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  text-align: center;
+  border: 0.2rem solid #fff;
+}
+
+.online{
+    width: 1rem;
+    height: 1rem;
+    bottom: 0.5rem;
+    right: 0.45rem;
+    background-color: green;
+}
+
+.issue{
+    width: 1.2rem;
+    height: 1.2rem;
+    bottom: 0.7rem;
+    right: 0.6rem;
+    background-color: red;
+}
+
+.offline{
+    width: 1.5rem;
+    height: 1.5rem;
+    bottom: 0.8rem;
+    right: 1rem;
+    background-color: grey;
+}
+
+.icon-badge{
+  font-size:2rem;
+  color:rgb(7, 129, 177);
+}
+
+.right-side-content{
+  width:100%;
+}
