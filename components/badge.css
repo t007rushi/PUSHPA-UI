@@ -1,9 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --badge-bg-color: rgb(31, 31, 192);
+  --badge-txt-color: rgb(255, 255, 255);
+  --online-color: green;
+  --issue-color: red;
+  --offline-color: grey;
+  --icon-badge-color: rgb(7, 129, 177);
+  --ternary-color: lightgray;
+  --top-left-bg: rgb(223, 51, 208);
 }
-
 .badge-collection {
   margin: 5rem;
   display: flex;
@@ -12,16 +16,15 @@
 }
 
 .relative-container {
-  position: relative; 
+  position: relative;
   padding: 0.3rem;
 }
 
 .badge {
-  background-color: rgb(31, 31, 192);
-  color: rgb(255, 255, 255);
+  background-color: var(--badge-bg-color);
+  color: var(--badge-txt-color);
   border-radius: 50%;
   position: absolute;
-  /* padding: 0.12rem 0.35rem;    MISTAKE Confused between padding and height-width */
   font-size: 0.7rem;
   width: 0.9rem;
   height: 0.9rem;
@@ -34,8 +37,8 @@
 }
 
 .top-left {
-  background-color: rgb(223, 51, 208);
-  color: rgb(255, 255, 255);
+  background-color: var(--top-left-bg);
+  color: var(--badge-txt-color);
   top: 0;
   left: 0;
 }
@@ -43,7 +46,7 @@
 .bottom-right {
   bottom: 0;
   right: 0;
-  border: 0.1rem solid white;
+  border: 0.1rem solid var(--badge-txt-color);
 }
 
 .lrg {
@@ -54,20 +57,19 @@
 
 .btn-1 {
   padding: 0.8rem 1.4rem;
-  color: rgb(255, 255, 255);
-  background-color: rgb(31, 31, 192);
+  color: var(--badge-txt-color);
+  background-color: var(--badge-bg-color);
   border: none;
   border-radius: 0.3rem;
 }
 
 .btn-2 {
-  background-color: rgb(255, 255, 255);
-  box-shadow: gray;
+  background-color: var(--badge-txt-color);
+  box-shadow: var(--offline-color);
   padding: 0.8rem 1.4rem;
-  border: 1px solid lightgray;
+  border: 1px solid var(--ternary-color);
   border-radius: 0.3rem;
 }
-
 
 .hide:hover ~ .hide_it {
   display: none;
@@ -76,10 +78,6 @@
 .avatar {
   position: relative;
 }
-
-
-
-
 
 .small {
   width: 2.5rem;
@@ -102,45 +100,45 @@
 }
 
 .circle {
-  background-color: rgb(31, 31, 192);
-  color: rgb(255, 255, 255);
+  background-color: var(--badge-bg-color);
+  color: var(--badge-txt-color);
   border-radius: 50%;
   position: absolute;
   width: 0.8rem;
   height: 0.8rem;
   text-align: center;
-  border: 0.2rem solid #fff;
+  border: 0.2rem solid var(--badge-txt-color);
 }
 
-.online{
-    width: 1rem;
-    height: 1rem;
-    bottom: 0.5rem;
-    right: 0.45rem;
-    background-color: green;
+.online {
+  width: 1rem;
+  height: 1rem;
+  bottom: 0.5rem;
+  right: 0.45rem;
+  background-color: var(--online-color);
 }
 
-.issue{
-    width: 1.2rem;
-    height: 1.2rem;
-    bottom: 0.7rem;
-    right: 0.6rem;
-    background-color: red;
+.issue {
+  width: 1.2rem;
+  height: 1.2rem;
+  bottom: 0.7rem;
+  right: 0.6rem;
+  background-color: var(--issue-color);
 }
 
-.offline{
-    width: 1.5rem;
-    height: 1.5rem;
-    bottom: 0.8rem;
-    right: 1rem;
-    background-color: grey;
+.offline {
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 0.8rem;
+  right: 1rem;
+  background-color: var(--offline-color);
 }
 
-.icon-badge{
-  font-size:2rem;
-  color:rgb(7, 129, 177);
+.icon-badge {
+  font-size: 2rem;
+  color: var(--icon-badge-color);
 }
 
-.right-side-content{
-  width:100%;
+.right-side-content {
+  width: 100%;
 }
