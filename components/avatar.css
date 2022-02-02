@@ -1,9 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+:root {
+  --avatar-prim-color: rgb(255, 224, 227);
+  --avatar-sec-color: rgb(255, 72, 88);
+  --border-one: rgb(167, 139, 250);
+  --border-two: rgb(14, 238, 14);
+  --border-three: rgb(241, 12, 12);
 }
-
 .text_avatar {
   display: flex;
   justify-content: space-around;
@@ -12,36 +13,33 @@
 }
 
 .named-avatar {
-  background-color: rgb(255, 224, 227);
-  border: 0.1rem solid rgb(255, 72, 88);
-  /* padding: 2rem 2.65rem; */
-  width: 5rem; 
-
-  height :5rem;
+  background-color: var(--avatar-prim-color);
+  border: 0.1rem solid var(--avat-sec-color);
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   margin: 3rem;
   font-size: 3rem;
-  text-align: center;
-  display :flex;
+  display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
-.small-na{
+.small-na {
   width: 1rem;
-  height :1rem;
-  font-size: 0.5rem; 
+  height: 1rem;
+  font-size: 0.5rem;
 }
 
-.medium-na{
+.medium-na {
   width: 2rem;
-  height :2rem;
-  font-size: 1rem; 
+  height: 2rem;
+  font-size: 1rem;
 }
-.large-na{
+.large-na {
   width: 3rem;
-  height :3rem;
-  font-size: 1.5rem; 
+  height: 3rem;
+  font-size: 1.5rem;
 }
 .img_avatar_set {
   display: flex;
@@ -56,32 +54,25 @@
   border-radius: 50%;
 }
 
-
-
 /* Borders */
-.maron-border{
-    border : 0.1rem solid rgb(167,139,250)
+.maron-border {
+  border: 0.1rem solid var(--border-one);
 }
 
-.online-border{
-    border : 0.2rem solid rgb(14, 238, 14)
+.online-border {
+  border: 0.2rem solid var(--border-two);
 }
 
-.issue-border{
-    border : 0.2rem solid rgb(241, 12, 12)
+.issue-border {
+  border: 0.2rem solid var(--border-three);
 }
 
-@media screen and (max-width: 480px){
-.text_avatar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+@media screen and (max-width: 480px) {
+  .text_avatar {
+    flex-direction: column;
+  }
 
-.img_avatar_set{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  .img_avatar_set {
+    flex-direction: column;
   }
 }
