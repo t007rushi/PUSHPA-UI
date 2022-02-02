@@ -16,12 +16,10 @@
   background-color: var(--avatar-prim-color);
   border: 0.1rem solid var(--avat-sec-color);
   width: 5rem;
-
   height: 5rem;
   border-radius: 50%;
   margin: 3rem;
   font-size: 3rem;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,15 +69,10 @@
 
 @media screen and (max-width: 480px) {
   .text_avatar {
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .img_avatar_set {
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
   }
 }
