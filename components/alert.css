@@ -1,0 +1,56 @@
+:root {
+  --alert-primary-color: rgb(239, 216, 236);
+
+  /* success */
+  --prim-suc: rgb(47, 213, 115);
+  --sec-suc: rgb(195, 243, 215);
+  /* info */
+  --prim-info: rgb(113, 201, 255);
+  --sec-info: rgb(215, 240, 255);
+  /* warning */
+  --prim-war: rgb(255, 165, 3);
+  --sec-war: rgb(255, 219, 155);
+  /* danger */
+  --prim-dang: rgb(255, 72, 88);
+  --sec-dang: rgb(255, 224, 227);
+}
+.container {
+  background-color: var(--alert-primary-color);
+  max-width: 50%;
+  max-height: 100%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.alert_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0 0.5em;
+  border-radius: 0.4rem;
+}
+
+.success {
+  color: var(--prim-suc);
+  background-color: var(--sec-suc);
+  border-left: 0.5rem solid var(--prim-suc);
+}
+
+.info {
+  color: var(--prim-info);
+  background-color: var(--sec-info);
+  border-left: 0.5rem solid var(--prim-info);
+}
+
+.danger {
+  color: var(--prim-dang);
+  background-color: var(--sec-dang);
+  border-left: 0.5rem solid var(--prim-dang);
+}
+
+.warning {
+  color: var(--prim-war);
+  background-color: var(--sec-war);
+  border-left: 0.5rem solid var(--prim-war);
+}

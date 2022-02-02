@@ -2,6 +2,8 @@
 @import url(../home.css);
 @import url(../components/image.css);
 @import url(../components//badge.css);
+@import url(../components/alert.css);
+@import url(../components/button.css);
 .content {
   display: flex;
 }
