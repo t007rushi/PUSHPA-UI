@@ -1,13 +1,4 @@
-:root {
-  --badge-bg-color: rgb(31, 31, 192);
-  --badge-txt-color: rgb(255, 255, 255);
-  --online-color: green;
-  --issue-color: red;
-  --offline-color: grey;
-  --icon-badge-color: rgb(7, 129, 177);
-  --ternary-color: lightgray;
-  --top-left-bg: rgb(223, 51, 208);
-}
+
 .badge-collection {
   margin: 5rem;
   display: flex;

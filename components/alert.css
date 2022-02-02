@@ -1,0 +1,40 @@
+.container {
+  background-color: var(--alert-primary-color);
+  max-width: 50%;
+  max-height: 100%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.alert-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0 0.5em;
+  border-radius: 0.4rem;
+}
+
+.success {
+  color: var(--prim-success);
+  background-color: var(--sec-success);
+  border-left: 0.5rem solid var(--prim-success);
+}
+
+.info {
+  color: var(--prim-info);
+  background-color: var(--sec-info);
+  border-left: 0.5rem solid var(--prim-info);
+}
+
+.danger {
+  color: var(--prim-danger);
+  background-color: var(--sec-danger);
+  border-left: 0.5rem solid var(--prim-danger);
+}
+
+.warning {
+  color: var(--prim-warning);
+  background-color: var(--sec-warning);
+  border-left: 0.5rem solid var(--prim-warning);
+}

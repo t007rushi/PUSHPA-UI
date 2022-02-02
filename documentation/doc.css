@@ -2,6 +2,47 @@
 @import url(../home.css);
 @import url(../components/image.css);
 @import url(../components//badge.css);
+@import url(../components/alert.css);
+@import url(../components/button.css);
+
+:root{
+  --badge-bg-color: rgb(31, 31, 192);
+  --badge-txt-color: rgb(255, 255, 255);
+  --online-color: green;
+  --issue-color: red;
+  --offline-color: grey;
+  --icon-badge-color: rgb(7, 129, 177);
+  --ternary-color: lightgray;
+  --top-left-bg: rgb(223, 51, 208);
+
+  --avatar-prim-color: rgb(255, 224, 227);
+  --avatar-sec-color: rgb(255, 72, 88);
+  --border-one: rgb(167, 139, 250);
+  --border-two: rgb(14, 238, 14);
+  --border-three: rgb(241, 12, 12);
+
+  --btn-primary-color: #ff751f;
+    --btn-sec-color : white;
+    --icn-btn-color: #d81159;
+    --float-action-color:blueviolet;
+    --shadow-color:grey;
+
+    --alert-primary-color: rgb(239, 216, 236);
+
+    /* success */
+    --prim-success: rgb(6, 144, 64);
+    --sec-success: rgb(195, 243, 215);
+    /* info */
+    --prim-info: rgb(41, 152, 221);
+    --sec-info: rgb(215, 240, 255);
+    /* warning */
+    --prim-warning: rgb(212, 147, 26);
+    --sec-warning: rgb(255, 219, 155);
+    /* danger */
+    --prim-danger: rgb(255, 72, 88);
+    --sec-danger: rgb(255, 224, 227);
+}
+
 .content {
   display: flex;
 }
@@ -37,4 +78,8 @@
   margin: 0.5rem;
   border-top: 2px solid lightgrey;
   border-bottom: 2px solid lightgrey;
+}
+
+.right-side-content{
+  margin-top:5rem;
 }
