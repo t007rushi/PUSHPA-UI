@@ -1,11 +1,3 @@
-:root{
-    --btn-primary-color: #ff751f;
-    --btn-sec-color : white;
-    --icn-btn-color: #d81159;
-    --float-action-color:blueviolet;
-    --shadow-color:grey;
-}
-
 .btn-collection {
   display: flex;
   align-items: center;
