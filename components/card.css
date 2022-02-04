@@ -18,9 +18,10 @@
   border-radius: 0.3rem;
   width: 14rem;
   height: 26rem;
+  border: 1px solid var(--card-txt-color);
 }
 
-.brand-img {
+.card-img {
   width: 12rem;
   height: 12rem;
 }
@@ -28,7 +29,7 @@
 .card-info {
   margin-top: 0.6rem;
 }
-.product-name {
+.card-title {
   color: var(--product-txt-color);
   font-size: 1.2rem;
 }
@@ -38,7 +39,7 @@
 }
 
 /* rating-icon */
-.green-rate {
+.card-rating {
   display: flex;
   align-items: center;
   font-size: 0.6rem;
@@ -56,7 +57,7 @@
   font-size: 0.4rem;
 }
 
-.price {
+.card-price {
   color: var(--price-txt-color);
   display: flex;
   margin: 0.5rem;
@@ -66,13 +67,13 @@ s {
   font-size: 0.6rem;
   margin-left: 0.3rem;
 }
-.saving {
+.card-discount {
   margin-left: 0.4rem;
   color: var(--card-txt-color);
   font-size: 0.8rem;
 }
 
-.opa {
+.transparent {
   opacity: 0.4;
 }
 
@@ -180,7 +181,7 @@ s {
 }
 
 /* Horzontal Cards */
-.hori-card {
+.card-horiz {
   flex-direction: row;
   width: 25rem;
   height: 15rem;
