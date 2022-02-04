@@ -4,9 +4,6 @@
   --cta-color: #012e41;
   --ternary-color: #e3d9cf;
 }
-body {
-  background-color: var(--primary-color);
-}
 .home-header {
   display: flex;
   align-items: center;

@@ -8,7 +8,7 @@
 }
 
 .btn {
-  width: 15rem;
+  width: 15rem; 
   border-radius: 0.3rem;
   padding: 0.5rem;
   cursor: pointer;
@@ -26,6 +26,11 @@
   justify-content: space-evenly;
   border: 1px solid var(--btn-primary-color);
   background-color: transparent;
+}
+
+.icon{
+  font-size:1.3rem;
+  margin-right: 0.4em;
 }
 
 .icon-btn {

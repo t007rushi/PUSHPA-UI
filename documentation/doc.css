@@ -4,6 +4,16 @@
 @import url(../components//badge.css);
 @import url(../components/alert.css);
 @import url(../components/button.css);
+@import url(../components/card.css);
+
+/* reset css */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 :root{
   --badge-bg-color: rgb(31, 31, 192);
@@ -41,8 +51,26 @@
     /* danger */
     --prim-danger: rgb(255, 72, 88);
     --sec-danger: rgb(255, 224, 227);
+
+
+    /* card */
+    --card-primary-color: orange;
+    --card-secondary-color: rgb(246, 66, 66);
+    --card-bg-color:#fffbef;
+    --product-txt-color:rgb(97, 96, 96);
+    --card-txt-color:grey;
+    --ratg-bg-color:green;
+    --card-white:#fff;
+    --price-txt-color:rgb(151, 29, 29);
+    --outof-color:rgb(93, 45, 5);
+  
+    --overlay-bg-color:#47677a;
+    --card-badge-bg-color:rgb(1, 1, 63);
 }
 
+body{
+  background-color:var(--card-white);
+}
 .content {
   display: flex;
 }
@@ -54,7 +82,7 @@
   width: 20%;
   overflow-y: auto;
   position: sticky;
-  top: 4rem;
+  top: 6rem;
 }
 
 .heading {
