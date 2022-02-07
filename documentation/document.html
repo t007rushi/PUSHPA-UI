@@ -450,24 +450,34 @@
           inputs are necessary for user interaction with the website. Inputs are
           used to take information from the user, and then save the data.
         </p>
-        <form action="" class="input-wrap">
+        <form action="" class="input-wrap flex-col">
           <!-- textbox -->
-          <div class="textbox">
+          <div class="textbox flex-col">
             <label for="review" class="heading">Give Feedback</label>
             <textarea name="review" id="" cols="30" rows="10"></textarea>
           </div>
           <!-- input with validation -->
-          <div class="input-group correct">
+          <div class="input-group correct flex-col">
             <label for="email">Email</label>
-            <input type="email" class="input-area" placeholder="rushikesh@neog"/>
+            <input
+              type="email"
+              class="input-area"
+              placeholder="rushikesh@neog"
+            />
             <p>Email matches with database</p>
           </div>
-          <div class="input-group error">
+          <div class="input-group error flex-col">
             <label for="pass">Enter Password</label>
             <input type="password" class="input-area" placeholder="pass@1234" />
             <p>Password must contain special characters*</p>
           </div>
         </form>
+        <iframe
+          src="https://www.thiscodeworks.com/embed/62010ea34dd44f0015f3cdf8"
+          style="width: 100%; height: 320px"
+          frameborder="0"
+        ></iframe>
+        <!-- Text utilities -->
       </div>
       <!-- right side content ends here -->
     </div>

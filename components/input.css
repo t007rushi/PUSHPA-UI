@@ -1,17 +1,10 @@
 .input-wrap {
   font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-}
-
-.textbox {
-  display: flex;
-  flex-direction: column;
 }
 
 .heading {
@@ -20,8 +13,6 @@
 }
 
 .input-group {
-  display: flex;
-  flex-direction: column;
   padding: 1rem;
   width: 40%;
   gap: 0.2rem;
@@ -29,9 +20,9 @@
 }
 
 .input-group label {
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
 .input-area {
   padding: 0.5rem;
@@ -51,4 +42,9 @@
 
 .error input {
   border: 2.5px solid var(--error-input-color);
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
 }
