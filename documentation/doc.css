@@ -5,6 +5,7 @@
 @import url(../components/alert.css);
 @import url(../components/button.css);
 @import url(../components/card.css);
+@import url(../components/input.css);
 
 /* reset css */
 *,
@@ -66,6 +67,10 @@
   
     --overlay-bg-color:#47677a;
     --card-badge-bg-color:rgb(1, 1, 63);
+
+    /* valid & error input */
+    --valid-input-color :green;
+    --error-input-color:red;
 }
 
 body{
