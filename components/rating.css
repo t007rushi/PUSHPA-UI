@@ -3,8 +3,8 @@
   width: 20rem;
   border: 2px solid black;
   padding: 1rem;
-  color: yellow;
-  background: rgb(104, 102, 102);
+  color: var(--rating-color);
+  background: var(--default-rating-color);
   margin: auto;
   font-family: sans-serif;
 }
@@ -18,12 +18,12 @@
 }
 
 .star-icon input + label { 
-    color: grey;
+    color: var(--shadow-color);
   font-size: 3rem;
   cursor: pointer;
 }
 
 .star-icon input:checked ~ label,
 .star-icon input:hover ~ label {
-    color: yellow;
+    color: var(--rating-color);
 }

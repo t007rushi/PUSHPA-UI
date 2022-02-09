@@ -4,37 +4,36 @@ body{
 }
 
 .parent{
-    margin: 100px;
+    margin: 6rem;
     position : relative;
 }
 .snackbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width : 700px;
+    width : 42rem;
     height: 3rem ;
-    margin-left : 80px;
-    border-radius : 5px;
-    background-color : rgb(51,51,51);
+    margin-left : 6rem;
+    border-radius : 0.4rem;
+    background-color : var(--dark-grey);
     position : absolute;
-    bottom :15px;
-    left : 10px;
-    color : white;
+    bottom :1rem;
+    left : 0.8rem;
+    color : var(--white-color);
   
-    font-size : 20px;
+    font-size : 1.5rem;
 }
 
 .retry{
-    color: #BB86EF;
-    padding:5px;
+    color: var(-border-one);
+    padding:0.4rem;
 }
 .cross{
-border-radius: 30px;
-padding: 5px 7px;
+border-radius: 2rem;
+padding: 0.4rem 0.5rem;
 }
 
 .cross:hover{
-   background-color : white; 
+   background-color : var(--white-color); 
    opacity: 0.2;
-   /* color: white; */
 }
