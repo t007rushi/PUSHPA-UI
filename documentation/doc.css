@@ -7,6 +7,8 @@
 @import url(../components/card.css);
 @import url(../components/input.css);
 @import url(../components/txt-util.css);
+@import url(../components/snackbar.css);
+@import url(../components/rating.css);
 
 /* reset css */
 *,
