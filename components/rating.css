@@ -1,0 +1,29 @@
+.rating-container {
+  height: 10rem;
+  width: 20rem;
+  border: 2px solid black;
+  padding: 1rem;
+  color: var(--rating-color);
+  background: var(--default-rating-color);
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.star-icon {
+  direction: rtl;
+}
+
+.star-icon input {
+  display: none;
+}
+
+.star-icon input + label { 
+    color: var(--shadow-color);
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.star-icon input:checked ~ label,
+.star-icon input:hover ~ label {
+    color: var(--rating-color);
+}

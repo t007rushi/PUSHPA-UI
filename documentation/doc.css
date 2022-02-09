@@ -7,6 +7,8 @@
 @import url(../components/card.css);
 @import url(../components/input.css);
 @import url(../components/txt-util.css);
+@import url(../components/snackbar.css);
+@import url(../components/rating.css);
 
 /* reset css */
 *,
@@ -35,6 +37,7 @@
 
   --btn-primary-color: #ff751f;
     --btn-sec-color : white;
+    --white-color:white;
     --icn-btn-color: #d81159;
     --float-action-color:blueviolet;
     --shadow-color:grey;
@@ -72,6 +75,11 @@
     /* valid & error input */
     --valid-input-color :green;
     --error-input-color:red;
+
+    --dark-grey:rgb(51,51,51);
+    /* rating color */
+    --rating-color:yellow;
+    --default-rating-color:rgb(104, 102, 102);
 }
 
 body{
