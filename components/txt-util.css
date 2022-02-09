@@ -1,0 +1,39 @@
+.txt-util-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem;
+  border: 1px solid black;
+  width: 50%;
+  padding: 0.5rem;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-grey {
+  color: var(--ternary-color);
+}
+
+.txt-underline {
+  text-decoration: underline;
+}
+
+.txt-lg {
+  font-size: 2rem;
+}
+.txt-md {
+  font-size: 1.5rem;
+}
+.txt-sm {
+  font-size: 0.5rem;
+}
