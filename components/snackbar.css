@@ -11,21 +11,19 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width : 42rem;
-    height: 3rem ;
-    margin-left : 6rem;
+    width : 100%;
     border-radius : 0.4rem;
     background-color : var(--dark-grey);
     position : absolute;
     bottom :1rem;
     left : 0.8rem;
     color : var(--white-color);
-  
     font-size : 1.5rem;
+    padding:5px 2px;
 }
 
 .retry{
-    color: var(-border-one);
+    color: var(--border-one);
     padding:0.4rem;
 }
 .cross{
@@ -36,4 +34,12 @@ padding: 0.4rem 0.5rem;
 .cross:hover{
    background-color : var(--white-color); 
    opacity: 0.2;
+}
+
+@media  only screen and (max-width: 768px)
+{
+ .snackbar{
+font-size:1rem;
+width: auto;
+ }
 }
