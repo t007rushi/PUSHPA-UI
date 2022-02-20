@@ -28,12 +28,13 @@ body{
 }
 .cross{
 border-radius: 2rem;
-padding: 0.4rem 0.5rem;
+padding: 0.4rem 0.7rem;
 }
 
 .cross:hover{
    background-color : var(--white-color); 
    opacity: 0.2;
+   color:var(--border-one);
 }
 
 @media  only screen and (max-width: 768px)
