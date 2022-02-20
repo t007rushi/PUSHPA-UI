@@ -9,6 +9,8 @@
 @import url(../components/txt-util.css);
 @import url(../components/snackbar.css);
 @import url(../components/rating.css);
+@import url(../components/navigation.css);
+@import url(../components/utility.css);
 
 /* reset css */
 *,
@@ -20,6 +22,13 @@
 }
 
 :root{
+  /* home page */
+  --primary-color: rgb(255, 251, 239);
+  --secondary-color: rgb(242, 98, 64);
+  --cta-color: #012e41;
+  /* --home-ternary-color: #e3d9cf; */
+
+  /* badge */
   --badge-bg-color: rgb(31, 31, 192);
   --badge-txt-color: rgb(255, 255, 255);
   --online-color: green;
@@ -29,12 +38,14 @@
   --ternary-color: lightgray;
   --top-left-bg: rgb(223, 51, 208);
 
+  /* avatar border */
   --avatar-prim-color: rgb(255, 224, 227);
   --avatar-sec-color: rgb(255, 72, 88);
   --border-one: rgb(167, 139, 250);
   --border-two: rgb(14, 238, 14);
   --border-three: rgb(241, 12, 12);
 
+/* button */
   --btn-primary-color: #ff751f;
     --btn-sec-color : white;
     --white-color:white;
@@ -84,6 +95,7 @@
 
 body{
   background-color:var(--card-white);
+  font-family: sans-serif;
 }
 .content {
   display: flex;
@@ -92,17 +104,25 @@ body{
 .fixed-nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100%;
-  width: 20%;
+  width: 15%;
   overflow-y: auto;
   position: sticky;
-  top: 6rem;
+  top: 3.5rem;
+  background-color: var(--primary-color);
 }
+
 
 .heading {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header-icon-btn{
+  color: var(--cta-color);
 }
 
 .logo_img {
@@ -115,13 +135,46 @@ body{
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: orange;
-  padding: 1rem;
-  margin: 0.5rem;
-  border-top: 2px solid lightgrey;
-  border-bottom: 2px solid lightgrey;
+  color: var(--cta-color);
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  padding: 5px 2px;
+}
+
+.navbar-icon{
+display:none;
 }
 
 .right-side-content{
   margin-top:5rem;
+  width: 100%;
+}
+
+.nav-element:hover{
+color:var(--secondary-color);
+}
+
+.comp-title{
+  text-align:center;
+  scroll-margin-top: 3.5rem;
+}
+
+@media  only screen and (max-width: 768px)
+{
+  .fixed-nav{
+    display: none;
+  }
+ 
+}
+@media  only screen and (max-width: 430px)
+{
+  .navbar-icon{
+    display: block;
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius:5px;
+    margin-right:10px;
+    color:var(--btn-primary-color);
+    border:1px solid var(--overlay-bg-color);
+  }
 }

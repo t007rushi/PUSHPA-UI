@@ -14,42 +14,92 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="doc.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="home-header">
-      <div class="logo-title">
-        <img src="../assets/title-logo.jpg" alt="" />
-        <h1>PUSHPA</h1>
-      </div>
+      <a href="../index.html" class="logo-title">PUSHPA-UI</a href="../index.html">
       <div class="right-side-nav">
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-github"></i>
+        <a class="header-icon-btn" href="https://www.linkedin.com/in/rushikeshtarapure/">
+          <i class="fab fa-linkedin"></i
+        ></a>
+        <a class="header-icon-btn" href="https://twitter.com/Neo_MonkStar">
+          <i class="fab fa-twitter"></i
+        ></a>
+        <a class="header-icon-btn" href="https://github.com/t007rushi">
+          <i class="fab fa-github"></i
+        ></a>
       </div>
+      <span class="material-icons navbar-icon"> menu </span>
     </nav>
 
     <div class="content">
       <nav class="fixed-nav">
-        <h1>Documentation</h1>
+        <h3>Get Started</h3>
         <a href="#install" class="nav-element">INSTALLATION</a>
-        <a href="#colors" class="nav-element">COLORS</a>
+        <a href="#text-util" class="nav-element">TYPOGRAPHY</a>
+        <h3>Components</h3>
         <a href="#avatar" class="nav-element">AVATARS</a>
         <a href="#badge" class="nav-element">BADGE</a>
         <a href="#alert" class="nav-element">ALERT</a>
         <a href="#button" class="nav-element">BUTTON</a>
         <a href="#card" class="nav-element">CARD</a>
         <a href="#images" class="nav-element">IMAGE</a>
-        <a href="#input" class="nav-element">INPUT</a>
-        <a href="#text-util" class="nav-element">TEXT UTILITIES</a>
+        <a href="#input" class="nav-element">INPUT</a> 
         <a href="#snackbar" class="nav-element">SNACKBAR</a>
         <a href="#rating" class="nav-element">RATING</a>
       </nav>
 
-      <!-- Avatar starts-->
+     
       <div class="right-side-content">
+        <!-- install -->
+        <div id="install" class="left-side">
+          <div class="home-title">Welcome to PUSHPA UI</div>
+          <p>Built Awesome Lit User Interfaces using Pushpa component Library.</p>
+          <div class="home-title">INSTALLATION :</div>
+          <p>Simply copy the below line into your project & your good to go 🚀</p>
+        <iframe src="https://www.thiscodeworks.com/embed/62127b4f5362a500156c2c19" class="code-snipp" style="width: 60%; height: 148px;" frameborder="0"></iframe>
+        </div>
+
+         <!-- Text utilities -->
+         <h1 class="comp-title" id="text-util">Typography</h1>
+         <!-- h1 to h6 -->
+         <div class="txt-util-wrap">
+           <h1>H1 HEADING</h1>
+           <h2>H2 HEADING</h2>
+           <h3>H3 HEADING</h3>
+           <h4>H4 HEADING</h4>
+           <h5>H5 HEADING</h5>
+           <h6>H6 HEADING</h6>
+         </div>
+ 
+         <!-- alignment -->
+         <div class="txt-util-wrap">
+           <p class="txt-left">left aligned</p>
+           <p class="txt-center">Center aligned</p>
+           <p class="txt-right">right aligned</p>
+         </div>
+         <!-- decoration -->
+         <div class="txt-util-wrap">
+           <p class="txt-grey">This text GREY COLORED</p>
+           <p class="txt-underline">Underline text</p>
+         </div>
+         <!-- diff sizes -->
+         <div class="txt-util-wrap">
+           <p class="txt-lg">This is large text</p>
+           <p class="txt-md">This is medium text</p>
+           <p class="txt-sm">This is small text</p>
+           <p>This is Default text</p>
+         </div>
+         <iframe
+           src="https://www.thiscodeworks.com/embed/6202d551234b8a0015700c08"
+           style="width: 100%; height: 450px"
+           frameborder="0"
+         ></iframe>
+ 
+         <!-- Avatar starts--> 
         <!-- Text Avatars -->
-        <h1 id="avatar">Text Avatars</h1>
+        <h1 class="comp-title" id="avatar">Text Avatars</h1>
         <div class="text_avatar">
           <div class="named-avatar small-na">
             <span>RT</span>
@@ -63,7 +113,7 @@
           style="width: 100%; height: 164px"
           frameborder="0"
         ></iframe>
-        <h1>Normal Avatar</h1>
+        <h1 class="comp-title">Normal Avatar</h1>
         <div class="img_avatar_set">
           <img
             class="img-avatar small maron-border"
@@ -92,7 +142,7 @@
           frameborder="0"
         ></iframe>
         <!-- Badges -->
-        <h1 id="badge">Avatar with badges</h1>
+        <h1 class="comp-title" id="badge">Avatar with badges</h1>
         <div class="img_avatar_set">
           <div class="relative-wrap">
             <img
@@ -134,7 +184,7 @@
         ></iframe>
         <!-- avatar ends -->
         <!-- Badges -->
-        <h1>Text, Icon and Button Badges</h1>
+        <h1 class="comp-title">Text, Icon and Button Badges</h1>
         <div class="badge-collection">
           <!-- 1st  -->
           <div class="relative-container">
@@ -168,7 +218,7 @@
         ></iframe>
 
         <!-- Alert starts-->
-        <h1 id="alert">Alerts</h1>
+        <h1 class="comp-title" id="alert">Alerts</h1>
         <div class="container">
           <!-- success alert   green-->
           <div class="alert-wrap success">
@@ -203,7 +253,7 @@
         <!--  -->
 
         <!-- Button starts -->
-        <h1 id="button">Buttons</h1>
+        <h1 class="comp-title" id="button">Buttons</h1>
         <div class="btn-collection">
           <button class="btn primary-btn btn-opa">PRIMARY BUTTON</button>
           <a style="text-decoration: none" href="https://coolors.co">
@@ -225,10 +275,10 @@
         ></iframe>
 
         <!--  Cards starts-->
-        <h1 id="card">Cards</h1>
+        <h1 class="comp-title" id="card">Cards</h1>
         <div class="card-collection">
           <!-- Simple card -->
-          <h1>Simple vertical Card</h1>
+          <h1 class="comp-title">Simple vertical Card</h1>
           <div class="card">
             <img class="card-img" src="../assets/gow.jpg" alt="demo" />
             <div class="card-info">
@@ -240,7 +290,7 @@
 
               <span class="card-price"
                 ><sup>₹</sup>2,970<s>5,499</s
-                ><span class="card-discount">Save 2,529 (46%)</span></span
+                ><span class="card-discount">Save 2,529</span></span
               >
               <button class="card-btn primary-btn">BUY NOW</button>
               <button class="card-btn card-icon-btn">
@@ -257,7 +307,7 @@
           ></iframe>
 
           <!-- Cards with badges -->
-          <h1>Card with badge</h1>
+          <h1 class="comp-title">Card with badge</h1>
           <div class="card relative-wrap">
             <img class="card-img" src="../assets/gow.jpg" alt="demo" />
             <div class="card-info">
@@ -269,7 +319,7 @@
 
               <span class="card-price"
                 ><sup>₹</sup>2,970<s>5,499</s
-                ><span class="card-discount">Save 2,529 (46%)</span></span
+                ><span class="card-discount">Save 2,529</span></span
               >
 
               <button class="card-btn primary-btn">BUY NOW</button>
@@ -287,7 +337,7 @@
           ></iframe>
 
           <!-- Cards with dismiss -->
-          <h1>card with dismiss</h1>
+          <h1 class="comp-title">card with dismiss</h1>
           <div class="card transparent relative-wrap">
             <img class="card-img" src="../assets/gow.jpg" alt="demo" />
             <div class="card-info">
@@ -299,7 +349,7 @@
 
               <span class="card-price"
                 ><sup>₹</sup>2,970<s>5,499</s
-                ><span class="card-discount">Save 2,529 (46%)</span></span
+                ><span class="card-discount">Save 2,529</span></span
               >
 
               <button class="card-btn primary-btn">BUY NOW</button>
@@ -320,20 +370,7 @@
           ></iframe>
 
           <!-- Cards with text overlay -->
-          <h1>Cards with text overlay</h1>
-          <div class="overlay relative-wrap">
-            <img src="https://picsum.photos/200" alt="img" />
-            <div class="text-overlay top">
-              <h3>This is text overlay card</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                expedita laudantium qui libero omnis praesentium veritatis dicta
-                eos itaque consequatur repellendus mollitia possimus labore
-                dolor, doloribus, animi perspiciatis provident maiores.
-              </p>
-            </div>
-          </div>
-          <!-- 2nd one -->
+          <h1 class="comp-title">Cards with text overlay</h1>
           <div class="overlay relative-wrap">
             <img src="../assets/uncharted.jpeg" alt="img" />
             <div class="text-overlay bg-color">
@@ -341,7 +378,6 @@
               <p>
                 Uncharted 4: A Thief's End is a 2016 action-adventure game
                 developed by Naughty Dog and published by Sony Computer
-                Entertainment
               </p>
             </div>
           </div>
@@ -352,14 +388,12 @@
           ></iframe>
 
           <!-- Text only cards -->
-          <h1>Text only cards</h1>
+          <h1 class="comp-title">Text only cards</h1>
           <div class="text-only">
             <h3>This is text only card</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
               expedita laudantium qui libero omnis praesentium veritatis dicta
-              eos itaque consequatur repellendus mollitia possimus labore dolor,
-              doloribus, animi perspiciatis provident maiores.
             </p>
           </div>
           <iframe
@@ -368,11 +402,15 @@
             frameborder="0"
           ></iframe>
 
-          <!-- Vertical/Horizontal cards -->
-          <h1>Horizontal card</h1>
+          <!--Horizontal cards -->
+          <h1 class="comp-title">Horizontal card</h1>
           <div class="card card-horiz">
-            <img class="card-img" src="../assets/gow.jpg" alt="demo" />
-            <div class="card-info">
+            <img
+              class="card-img card-img-res"
+              src="../assets/gow.jpg"
+              alt="demo"
+            />
+            <div class="card-info card-info-res">
               <h5 class="card-title">God of War</h5>
               <p class="description">PEGI Rating: Ages 16 and Above</p>
               <div class="card-rating">
@@ -381,12 +419,12 @@
 
               <span class="card-price"
                 ><sup>₹</sup>2,970<s>5,499</s
-                ><span class="card-discount">Save 2,529 (46%)</span></span
+                ><span class="card-discount">Save 2,529</span></span
               >
-              <button class="card-btn primary-btn">BUY NOW</button>
-              <button class="card-btn card-icon-btn">
+              <button class="card-btn card-btn-res primary-btn">BUY NOW</button>
+              <button class="card-btn card-btn-res card-icon-btn">
                 <span class="material-icons icon"> shopping_cart </span>
-                Add to Cart
+                Add Cart
               </button>
             </div>
           </div>
@@ -397,7 +435,7 @@
           ></iframe>
 
           <!-- Cards with shadow -->
-          <h1>Cards with shadow</h1>
+          <h1 class="comp-title">Cards with shadow</h1>
           <div class="card card-with-shadow">
             <img class="card-img" src="../assets/gow.jpg" alt="demo" />
             <div class="card-info">
@@ -409,7 +447,7 @@
 
               <span class="card-price"
                 ><sup>₹</sup>2,970<s>5,499</s
-                ><span class="card-discount">Save 2,529 (46%)</span></span
+                ><span class="card-discount">Save 2,529</span></span
               >
               <button class="card-btn primary-btn">BUY NOW</button>
               <button class="card-btn card-icon-btn">
@@ -426,7 +464,7 @@
         ></iframe>
 
         <!-- Responsive images -->
-        <h1 id="images">Images</h1>
+        <h1 class="comp-title" id="images">Images</h1>
         <p>
           Image Components are used to display images on websites.This images
           can be made screen responsive.
@@ -448,7 +486,7 @@
         ></iframe>
 
         <!-- input -->
-        <h1 id="input">Input</h1>
+        <h1 class="comp-title" id="input">Input</h1>
         <p>
           inputs are necessary for user interaction with the website. Inputs are
           used to take information from the user, and then save the data.
@@ -480,48 +518,12 @@
           style="width: 100%; height: 320px"
           frameborder="0"
         ></iframe>
-        <!-- Text utilities -->
-        <h1 id="text-util">Text utilities</h1>
-        <!-- h1 to h6 -->
-        <div class="txt-util-wrap">
-          <h1>This is H1 HEADING</h1>
-          <h2>This is H2 HEADING</h2>
-          <h3>This is H3 HEADING</h3>
-          <h4>This is H4 HEADING</h4>
-          <h5>This is H5 HEADING</h5>
-          <h6>This is H6 HEADING</h6>
-        </div>
-
-        <!-- alignment -->
-        <div class="txt-util-wrap">
-          <p class="txt-left">This text is left aligned</p>
-          <p class="txt-center">This text is Center aligned</p>
-          <p class="txt-right">This text is right aligned</p>
-        </div>
-        <!-- decoration -->
-        <div class="txt-util-wrap">
-          <p class="txt-grey">This text GREY COLORED</p>
-          <p class="txt-underline">Underline text</p>
-        </div>
-        <!-- diff sizes -->
-        <div class="txt-util-wrap">
-          <p class="txt-lg">This is large text</p>
-          <p class="txt-md">This is medium text</p>
-          <p class="txt-sm">This is small text</p>
-          <p>This is Default text</p>
-        </div>
-        <iframe
-          src="https://www.thiscodeworks.com/embed/6202d551234b8a0015700c08"
-          style="width: 100%; height: 450px"
-          frameborder="0"
-        ></iframe>
 
         <!-- snackbar -->
-        <h1 id="snackbar">Snackbar</h1>
+        <h1 class="comp-title" id="snackbar">Snackbar</h1>
         <div class="parent">
-          <img src="../assets/tourism.png" alt="" />
           <section class="snackbar">
-            <span>Can't send Photos. Retry in 5 seconds.</span>
+            <span>Can't,Retry in 5 minutes</span>
             <h3 class="retry">RETRY</h3>
             <div class="cross">X</div>
           </section>
@@ -533,9 +535,9 @@
         ></iframe>
 
         <!-- Rating -->
-        <h1 id="rating">RATING</h1>
+        <h1 class="comp-title" id="rating">RATING</h1>
         <div class="rating-container">
-          <h1>Rate Product</h1>
+          <h1 class="comp-title">Rate Product</h1>
           <div class="star-icon">
             <input type="radio" name="rating1" id="rating1" />
             <label for="rating1" class="material-icons"> star </label>
@@ -549,7 +551,11 @@
             <label for="rating5" class="material-icons"> star </label>
           </div>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/620370da234b8a0015700c73" style="width: 100%; height: 281px;" frameborder="0"></iframe>
+        <iframe
+          src="https://www.thiscodeworks.com/embed/620370da234b8a0015700c73"
+          style="width: 100%; height: 281px"
+          frameborder="0"
+        ></iframe>
       </div>
       <!-- right side content ends here -->
     </div>

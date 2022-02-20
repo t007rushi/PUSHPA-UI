@@ -2,8 +2,10 @@
 .badge-collection {
   margin: 5rem;
   display: flex;
-  width: 50%;
+  width: 40%;
   justify-content: space-evenly;
+  gap :1rem;
+  flex-wrap: wrap;
 }
 
 .relative-container {
@@ -130,6 +132,4 @@
   color: var(--icon-badge-color);
 }
 
-.right-side-content {
-  width: 100%;
-}
+

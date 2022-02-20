@@ -1,6 +1,6 @@
 .responsive-img-set {
   display: flex;
-  width: 40%;
+  width: 75%;
   flex-wrap: wrap;
   gap: 2rem;
   margin: auto;

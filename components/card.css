@@ -2,32 +2,32 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 3rem;
-  margin-left: 5rem;
   gap :1rem
 }
 
 .card {
   background-color: var(--card-bg-color);
   text-align: left;
-  padding: 0.9rem;
+  padding: 0.6rem 0.3rem;
   margin: 0.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 0.3rem;
-  width: 14rem;
-  height: 26rem;
+  width: 15rem;
+  height: 32rem;
   border: 1px solid var(--card-txt-color);
 }
 
 .card-img {
-  width: 12rem;
-  height: 12rem;
+  width: 100%;
+  height: 100%;
 }
 
 .card-info {
-  margin-top: 0.6rem;
+  margin: 0.6rem 0 0 0.4rem; 
+  padding: 0.4rem 0.6rem;
 }
 .card-title {
   color: var(--product-txt-color);
@@ -83,12 +83,11 @@ s {
 
 .out-stock {
   position: absolute;
+  font-size: 1rem;
   top: 45%;
   background-color: var(--outof-color);
-  font-size: 10px;
   color: var(--card-white);
-  padding: 0.3rem;
-  font-family: "Courier New", Courier, monospace;
+  padding: 0.6rem;
   border-radius: 3px;
 }
 
@@ -130,8 +129,7 @@ s {
 
 .overlay img {
   border-radius: 0.5rem;
-  height: 21rem;
-  width: 23rem;
+  width: 18rem;
   opacity: 0.7;
 }
 
@@ -166,7 +164,7 @@ s {
 
 .text-only {
   margin: 20px;
-  height: 21rem;
+  height: 15rem;
   width: 23rem;
   background-color: var(--card-primary-color);
   color: var(--card-white);
@@ -183,7 +181,7 @@ s {
 /* Horzontal Cards */
 .card-horiz {
   flex-direction: row;
-  width: 25rem;
+  width: 26rem;
   height: 15rem;
 }
 
@@ -214,4 +212,17 @@ s {
 /* card with shadow */
 .card-with-shadow{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 420px) {
+  .card-info-res {
+    width:50%;
+  }
+  .card-btn-res{
+    width:90%;
+    font-size: 1rem;
+  }
+  .card-img-res{
+    width:50%;
+  }
 }
