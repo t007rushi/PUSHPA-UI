@@ -13,6 +13,7 @@
 @import url(../components/utility.css);
 @import url(../components/list.css);
 @import url(../components/grid.css);
+@import url(../components/slider.css);
 
 /* reset css */
 *,
@@ -140,7 +141,6 @@ body{
   color: var(--cta-color);
   margin: 0.5rem 0;
   border-radius: 5px;
-  padding: 5px 2px;
 }
 
 .navbar-icon{

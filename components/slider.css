@@ -1,0 +1,17 @@
+.filter-wrap {
+    gap: 1rem;
+    margin: 2rem auto;
+    width: 50%;
+    border: 1px solid var(--cta-color);
+    padding: 0.5rem;
+  }
+  .filter-wrap label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--cta-color);
+  }
+
+  .prange {
+    width: 100%;
+    accent-color: var(--secondary-color);
+  }
