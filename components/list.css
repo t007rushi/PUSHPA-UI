@@ -21,7 +21,7 @@
   padding: 5px;
 }
 
-.stk-list-container {
+.stack-list-container {
   margin: 10px;
   width: 20rem;
   min-height: 8rem;
@@ -37,7 +37,7 @@
   border: 1px solid var(--cta-color);
 }
 
-.stk-list-img {
+.stack-list-img {
   width: 4rem;
   height: 4rem;
 }
