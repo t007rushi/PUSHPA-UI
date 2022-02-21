@@ -33,11 +33,6 @@
   padding: 0.2rem;
 }
 
-.search-bar {
-  width: 100%;
-  border: none;
-}
-
 .header-right {
   width: 22rem;
   align-items: center;
@@ -51,10 +46,6 @@
   cursor: pointer;
   gap: 0.5rem;
   align-items: center;
-}
-
-.search-bar:focus {
-  outline: none;
 }
 
 .header-icon {
