@@ -13,25 +13,16 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.bgGrey {
+.bg-grey {
   background-color: var(--overlay-bg-color);
 }
 
-.bgred {
+.bg-red {
   background-color: var(--btn-primary-color);
 }
-.bggreen {
+.bg-green {
   background-color: var(--border-two);
 }
-.bgblue {
+.bg-blue {
   background-color: var(--white-color);
-}
-
-@media only screen and (max-width: 625px) {
-  .grid-two {
-    grid-template-columns: 1fr;
-  }
-  .grid-three {
-    grid-template-columns: 1fr 1fr ;
-  }
 }
