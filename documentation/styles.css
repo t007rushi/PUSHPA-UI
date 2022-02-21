@@ -11,6 +11,7 @@
 @import url(../components/rating.css);
 @import url(../components/navigation.css);
 @import url(../components/utility.css);
+@import url(../components/list.css);
 
 /* reset css */
 *,
@@ -157,6 +158,8 @@ color:var(--secondary-color);
 .comp-title{
   text-align:center;
   scroll-margin-top: 3.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 @media  only screen and (max-width: 768px)

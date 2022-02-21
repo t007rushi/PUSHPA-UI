@@ -1,0 +1,43 @@
+.list-container {
+  width: 18rem;
+  background-color: var(--primary-color);
+  margin: 1rem;
+  text-align: center;
+}
+
+.norm-list-item {
+  border: 1px solid var(--cta-color);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: var(--cta-color);
+}
+
+.norm-list-item > div {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.stack-list-container {
+  margin: 10px;
+  width: 20rem;
+  min-height: 8rem;
+  color: var(--cta-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--cta-color);
+}
+
+.stack-list-item {
+  width: 100%;
+  min-height: 7rem;
+  padding: 10px;
+  border: 1px solid var(--cta-color);
+}
+
+.stack-list-img {
+  width: 4rem;
+  height: 4rem;
+}
