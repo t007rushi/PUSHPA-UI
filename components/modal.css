@@ -1,0 +1,35 @@
+.modal-container {
+  margin: 3rem 6rem;
+}
+
+.modal {
+  margin: auto;
+  background-color: var(--primary-color);
+  color: var(--cta-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--cta-color);
+}
+
+.modal::backdrop {
+  backdrop-filter: blur(1px);
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.modal-actions {
+  display: flex;
+}
+
+.modal-action {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
