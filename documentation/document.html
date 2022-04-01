@@ -52,6 +52,7 @@
         <a href="#grid" class="nav-element">GRID</a>
         <a href="#nav" class="nav-element">NAVIGATION</a>
         <a href="#slider" class="nav-element">SLIDER</a>
+        <a href="#modal" class="nav-element">MODAL</a>
       </nav>
 
      
@@ -700,9 +701,31 @@
     />
   </div>       
   <iframe src="https://www.thiscodeworks.com/embed/6213719611c4db00151a7e4c" style="margin-top:1rem;width: 100%; height: 242px;" frameborder="0"></iframe>  
+
+  <!-- Modal -->
+  <h1 id="modal" class="comp-title">MODAL</h1>
+  <div class="modal-container">
+  <button id="alert-modal-btn" class="btn primary-btn">
+    LOG OUT
+  </button>
+  <dialog id="alert-modal" class="modal">
+    <div class="modal-wrapper">
+      <h2 class="modal-header">LOGOUT</h2>
+      <span class="modal-text">Are you sure you want to log out?</span>
+      <form method="dialog" class="modal-actions">
+        <button class="btn secondary-btn modal-action">
+          NO
+        </button>
+        <button class="btn primary-btn modal-action">YES</button>
+      </form>
+    </div>
+  </dialog>
+</div>
+<iframe src="https://www.thiscodeworks.com/embed/6246ba478319e0001518850b" style="width: 100%; height: 307px;" frameborder="0"></iframe>
 </div>
       <!-- right side content ends here -->
     </div>
     <!-- main content ends here -->
   </body>
+  <script src="../javascript/modal.js"></script>
 </html>
