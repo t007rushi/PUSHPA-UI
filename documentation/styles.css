@@ -14,6 +14,7 @@
 @import url(../components/list.css);
 @import url(../components/grid.css);
 @import url(../components/slider.css);
+@import url(../components/modal.css);
 
 /* reset css */
 *,
@@ -94,6 +95,7 @@
     /* rating color */
     --rating-color:yellow;
     --default-rating-color:rgb(104, 102, 102);
+
 }
 
 body{
